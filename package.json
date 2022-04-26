@@ -10,7 +10,8 @@
     "preview": "npm run build && vite preview",
     "preview:staging": "npm run build:staging && vite preview --mode=staging",
     "lint": "eslint ./src --ext .js,.vue",
-    "lint:fix": "eslint ./src --ext .js,.vue --fix"
+    "lint:fix": "eslint ./src --ext .js,.vue --fix",
+    "prepare": "husky install"
   },
   "dependencies": {
     "axios": "^0.27.0",
@@ -25,6 +26,7 @@
     "eslint": "^8.14.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-vue": "^8.7.1",
+    "husky": "^7.0.4",
     "less": "^4.1.2",
     "less-loader": "^10.2.0",
     "mockjs": "^1.1.0",

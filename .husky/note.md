@@ -1,0 +1,1 @@
+try to run `chmod +x ./.husky/pre-commit` if pre-commit doesn't work.
