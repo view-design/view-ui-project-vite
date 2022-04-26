@@ -24,14 +24,14 @@ const config = ({ mode }) => {
       target: 'es2015',
       outDir: path.resolve(__dirname, 'dist'),
       assetsDir: 'assets',
-      assetsInlineLimit: 1, //8192,
+      assetsInlineLimit: 8192,
       sourcemap: isProd ? 'hidden' : true,
       emptyOutDir: true,
       rollupOptions: {
         input: path.resolve(__dirname, 'index.html'),
         output: {
-          chunkFileNames: "js/[name].[hash].js",
-          entryFileNames: "js/[name].[hash].js",
+          chunkFileNames: 'js/[name].[hash].js',
+          entryFileNames: 'js/[name].[hash].js',
           // assetFileNames: "assets/[name].[hash].[ext]",
         }
       }
