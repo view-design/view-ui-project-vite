@@ -8,7 +8,9 @@
     "build": "vite build",
     "build:staging": "vite build --mode=staging",
     "preview": "npm run build && vite preview",
-    "preview:staging": "npm run build:staging && vite preview --mode=staging"
+    "preview:staging": "npm run build:staging && vite preview --mode=staging",
+    "lint": "eslint ./src --ext .js,.vue",
+    "lint:fix": "eslint ./src --ext .js,.vue --fix"
   },
   "dependencies": {
     "axios": "^0.27.0",
@@ -20,6 +22,9 @@
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.3.1",
     "autoprefixer": "^10.4.5",
+    "eslint": "^8.14.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-vue": "^8.7.1",
     "less": "^4.1.2",
     "less-loader": "^10.2.0",
     "mockjs": "^1.1.0",

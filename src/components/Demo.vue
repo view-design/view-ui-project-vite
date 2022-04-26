@@ -5,16 +5,16 @@
 </template>
 
 <script>
-  export default {
-    name: 'Demo',
-    setup() {
-    },
-    methods: {
-      handleClick() {
-        this.$Message.success('Welcome to ViewUIPlus Demo!')
-      }
+export default {
+  name: 'Demo',
+  setup() {
+  },
+  methods: {
+    handleClick() {
+      this.$Message.success('Welcome to ViewUIPlus Demo!')
     }
   }
+}
 </script>
 
 <style lang="less" scoped>
