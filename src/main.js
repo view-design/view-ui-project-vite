@@ -1,9 +1,9 @@
 import { createApp } from 'vue'
-import ViewUIPlus from 'view-design'
+import ViewUIPlus from 'view-ui-plus'
 import App from './App.vue'
 import router from './router'
 import store from './store'
-import 'view-design/dist/styles/viewuiplus.css'
+import 'view-ui-plus/dist/styles/viewuiplus.css'
 import './styles'
 // import './mock'
 

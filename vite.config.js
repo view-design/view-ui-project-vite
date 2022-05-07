@@ -25,7 +25,7 @@ const config = ({ mode }) => {
       outDir: path.resolve(__dirname, 'dist'),
       assetsDir: 'assets',
       assetsInlineLimit: 8192,
-      sourcemap: isProd ? 'hidden' : true,
+      sourcemap: !isProd,
       emptyOutDir: true,
       rollupOptions: {
         input: path.resolve(__dirname, 'index.html'),
