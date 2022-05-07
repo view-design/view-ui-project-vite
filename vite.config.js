@@ -2,6 +2,7 @@ import { defineConfig, loadEnv } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import autoprefixer from 'autoprefixer'
 import { createHtmlPlugin } from 'vite-plugin-html'
+import Components from 'unplugin-vue-components/vite'
 import path from 'path'
 
 const config = ({ mode }) => {
@@ -18,14 +19,16 @@ const config = ({ mode }) => {
             title: APP_TITLE,
           },
         }
-      })
+      }),
+      // 按需引入
+      Components()
     ],
     build: {
       target: 'es2015',
       outDir: path.resolve(__dirname, 'dist'),
       assetsDir: 'assets',
       assetsInlineLimit: 8192,
-      sourcemap: isProd ? 'hidden' : true,
+      sourcemap: !isProd,
       emptyOutDir: true,
       rollupOptions: {
         input: path.resolve(__dirname, 'index.html'),
