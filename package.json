@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "axios": "^0.27.0",
-    "view-ui-plus": "^1.0.0-beta.1",
+    "view-ui-plus": "latest",
     "vue": "^3.2.25",
     "vue-router": "^4.0.14",
     "vuex": "^4.0.2"
@@ -27,7 +27,7 @@
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-vue": "^8.7.1",
     "husky": "^7.0.4",
-    "less": "^4.1.2",
+    "less": "^2.7.3",
     "less-loader": "^10.2.0",
     "mockjs": "^1.1.0",
     "vite": "^2.9.5",

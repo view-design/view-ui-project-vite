@@ -3,8 +3,7 @@ import ViewUIPlus from 'view-ui-plus'
 import App from './App.vue'
 import router from './router'
 import store from './store'
-import 'view-ui-plus/dist/styles/viewuiplus.css'
-import './styles'
+import './styles/index.less'
 // import './mock'
 
 const app = createApp(App)
