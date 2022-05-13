@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "axios": "^0.27.0",
-    "view-ui-plus": "latest",
+    "view-ui-plus": "^1.0.0-beta.23",
     "vue": "^3.2.25",
     "vue-router": "^4.0.14",
     "vuex": "^4.0.2"
