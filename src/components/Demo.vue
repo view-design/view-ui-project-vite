@@ -11,7 +11,7 @@ export default {
   },
   methods: {
     handleClick() {
-      this.$Message.success('Welcome to ViewUIPlus Demo!')
+      this.$Message.info('Welcome to View UI Plus Demo!')
     }
   }
 }
