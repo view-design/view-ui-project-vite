@@ -38,9 +38,10 @@ const config = ({ mode }) => {
     },
     envPrefix,
     resolve: {
-      alias: {
-        '@': path.resolve(__dirname, 'src'),
-      },
+      alias: [
+        { find: /^@\//, replacement: `${path.resolve(__dirname, 'src')}/` },
+        { find: /^~/, replacement: '' }
+      ],
       extensions: ['.js', '.mjs', '.vue', '.json', '.less', '.css']
     },
     css: {
