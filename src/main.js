@@ -1,14 +1,15 @@
 import { createApp } from 'vue'
-import ViewUIPlus from 'view-ui-plus'
+import { createPinia } from 'pinia'
 import App from './App.vue'
 import router from './router'
-import store from './store'
+import ViewUiPlus from 'view-ui-plus'
 import './styles/index.less'
-// import './mock'
 
 const app = createApp(App)
+const pinia = createPinia()
 
-app.use(router)
-  .use(store)
-  .use(ViewUIPlus)
-  .mount('#app')
+app.use(pinia)
+    .use(router)
+    .use(ViewUiPlus)
+    .mount('#app')
+

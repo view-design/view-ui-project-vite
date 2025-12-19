@@ -1,5 +1,5 @@
 # view-ui-project-vite
-This project build for Vue3, Vue-router, Vuex, ViewUIPlus and Vite.
+This project build for Vue3, Vue-router, Pina, ViewUIPlus, TypeScript and Vite.
 ## Install
 ```shell
 npm install
@@ -25,17 +25,6 @@ npm run preview
 ### Preview for Staging
 ```shell
 npm run preview:staging
-```
-## Run Eslint
-### Run without Fixing
-
-- This operation will also run before git-commit.
-```shell
-npm run lint
-```
-### Run with Fixing
-```shell
-npm run lint:fix
 ```
 ## .env Description
 

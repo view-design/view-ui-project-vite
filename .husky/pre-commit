@@ -1,1 +1,0 @@
-npx eslint ./src --ext .js,.vue
