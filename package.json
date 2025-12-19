@@ -2,7 +2,7 @@
   "name": "view-ui-project-vite",
   "private": true,
   "version": "1.0.0",
-  "description": "a template project for vue3, ViewUIPlus, TypeScript and Vite.",
+  "description": "a template project for vue3, ViewUIPlus and Vite.",
   "scripts": {
     "serve": "npm run dev",
     "dev": "vite serve",
